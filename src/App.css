@@ -1,0 +1,150 @@
+.container{
+  position: relative;
+  padding: 25px 75px;
+  background-color: hsla(220, 43%, 97%, 1);
+  overflow: hidden;
+}
+  
+.App.Quiz{
+  height: auto;
+  min-height: 80vh;
+  z-index: 2;
+}
+
+.App {
+  text-align: center;
+  color: hsla(231, 42%, 28%, 1);
+  background-color: hsla(220, 43%, 97%, 1);
+  width: 600px;
+  height: 600px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+
+.app-title{
+  margin: 0;
+  font-size: 2rem;
+  line-height: 37px;
+  margin-bottom: 8px;
+  align-self: center;
+}
+
+.app-desc{
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 25px;
+  font-family: 'Inter', sans-serif;
+  max-width: 350px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.quiz-control{
+  background-color: hsla(230, 34%, 46%, 1);
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: hsla(220, 43%, 97%, 1);
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 19px;
+  align-self: center;
+  z-index: 2;
+}
+
+.blob{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  color: transparent;
+
+}
+
+.blob.one{
+  top: 0;
+  right: 0;
+}
+
+.blob.two{
+  bottom: 0;
+  left: 0;
+  transform: translate(-10%, 35%);
+}
+
+.question-container{
+  border-bottom: 1px solid hsla(231, 42%, 90%, 1);
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.question{
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 24px;
+  margin-bottom: 14px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.answers{
+  display: flex;
+  gap: 20px;
+  align-self: flex-start;
+}
+
+.btn-option{
+  min-width: 70px;
+  display: inline-block;
+  font-family: "Inter";
+  height: 100%;
+  border: 1px solid hsla(231, 42%, 28%, 1);
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: hsla(220, 43%, 97%, 1);
+  color: hsla(231, 42%, 28%, 1);
+  padding: 4px 12px;
+}
+
+button.clicked-answer{
+  background-color: hsla(230, 61%, 90%, 1);
+  border-color: hsla(230, 61%, 90%, 1);
+}
+
+.btn-option-notSelected{
+  opacity: 0.5;
+}
+
+.btn-option-selected{
+  background-color: hsla(0, 81%, 85%, 1);
+  opacity: 0.5;
+  border-color: hsla(0, 81%, 85%, 1);
+}
+
+.btn-option-correct{
+  background-color: hsla(133, 46%, 71%, 1);
+  border-color: hsla(133, 46%, 71%, 1);
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.result{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 1.2rem;
+  z-index: 2;
+}
+
