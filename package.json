@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
     "nanoid": "^4.0.0",
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",
